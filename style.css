@@ -1,0 +1,25 @@
+article{
+    width: 300px;
+    height: 529px;
+}
+svg{
+    fill: red;
+    position: relative;
+    top: 21px;
+    right: 120px;
+}
+.fondo{
+    width: 100%;
+}
+.foto{
+    border-radius: 50%;
+}
+.descripcionfoto{
+    position: relative;
+    top: -60px;
+}
+article div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
