@@ -1,25 +1,86 @@
+body{
+    margin: 0;
+}
+.topheader{
+    background: #1CD1B0;
+    color: black;
+    padding: 10px;
+    
+}
+a button{
+    background-color: #00669f;
+    color: #f3f3f3;
+    width: 128.78px;
+height: 48.52px;
+border: 0px;
+
+}
+.headerprincipal{
+    color: black;
+    padding: 10px;
+    background-color: #00669f;
+    margin-top: 0px;
+
+}
 article{
     width: 300px;
     height: 529px;
 }
+article h2{
+    margin-bottom: 0;
+}
+article button{
+    margin-bottom: 10px;
+}
+article p {
+    margin: 10px;
+}
 svg{
     fill: red;
+
+    align-self: flex-start;
     position: relative;
     top: 21px;
-    right: 120px;
+    left: 15px;
 }
 .fondo{
     width: 100%;
 }
-.foto{
+.foto{width: 40%;
     border-radius: 50%;
+    z-index: 2;
+
+}
+.superior{
+    position: relative;
+    z-index: 1;
 }
 .descripcionfoto{
     position: relative;
     top: -60px;
+    background-color: #f3f3f3;
 }
 article div{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+section{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 15px;
+}
+.botonpag button{
+    background-color: #00669f;
+    color:white;
+    border-radius: 50%;
+    padding: 20px;
+    border: 0;
+    }
+footer{
+    background-color: #00669f;
+    color: #f3f3f3;
+    padding: 10px;
 }
