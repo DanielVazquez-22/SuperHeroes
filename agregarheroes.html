@@ -13,7 +13,7 @@
                 Descuentos 20%
             </div>
             <div class="headerprincipal">
-                <a href="index.html"><h1>Heroes</h1></a>
+                <a class="h1header" href="index.html"><h1>Heroes</h1></a>
             </div>
             <div class="barramenu">
                 <a href="#">Contacto</a>
@@ -29,34 +29,53 @@
 
             <form action="">
                 <div>
-                    <label for="">*Nombre</label>
-                    <input type="text">
-                    <label for="">*Fecha</label>
-                    <input type="date">
-                    <textarea name="descripcion" id="descripcion" cols="30" rows="10">Descripcion</textarea>
+                    <label  for="nom">*Nombre</label>
+                    <input class="inputtext" type="text" name="nombre" id="nom">
+                    <label for="fecha">*Fecha</label>
+                    <input class="inputtext" type="date" name="fecha" id="fecha">
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="18"> "Descripcion"</textarea>
                 </div>
+
                 <div>
                     <label for="Especie">*Especie</label>
-                    <select name="Especie" id="Especie" ></select>
+                    <select name="Especie" id="Especie" >
+
+                    </select>
+
                     <label for="Foto">Agregar Foto</label>
                     <input type="file" id="Foto">
-                    <label for="Poderes">Poderes</label>
-                    <input type="checkbox" name="Poderes" id="Poderes">
-                    <input type="checkbox" name="Poderes" id="Poderes">
-                    <input type="checkbox" name="Poderes" id="Poderes">
-                    <input type="checkbox" name="Poderes" id="Poderes">
+                    
+                    <div class="poder">
+                        <br>
+                        <label for="Poderes">Poderes</label>
+                        <br><br>
+                        <input type="checkbox" name="Poderes" id="Poderes">
+                        <label for="Poderes">Volar</label>
+                        <br>
+                        <input type="checkbox" name="Poderes" id="Poderes">
+                        <label for="Poderes">SuperInteligencia</label>
+                        <br>
+                        <input type="checkbox" name="Poderes" id="Poderes">
+                        <label for="Poderes">Vista de rayo láser</label>
+                        <br>
+                        <input type="checkbox" name="Poderes" id="Poderes">
+                        <label for="Poderes">Billetera gorda</label>
+                    </div>
                     <hr>
+                    <div class="tipopersonaje">
                     <label for="Tipo">Tipo de Personaje</label>
-                    <input type="checkbox" name="" id="">
+                    <br><br>
+                    <input type="radio" name="Tipo" id="Heroe" value="Heroe">
                     <label for="">Héroe / Heroina</label>
-                    <input type="checkbox" name="" id="">
+                    <br>
+                    <input type="radio" name="Tipo" id="Villano" value="Villano">
                     <label for="">Villano / Villana</label>
+                    </div>
                 </div>
                 
             </form>
             <div>
-                <button class="botonagregar" type="submit">Agregar</button>
-                
+                <input class="botonagregar"type="submit" value="Agregar">
             </div>
         </main>
 
