@@ -25,9 +25,22 @@ gap: 10px;
 color: #f3f3f3;
 }
 main{
-    
+    background-color: #00669f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    border-radius: 10%;
 }
-
+form{
+    display: flex;
+    gap: 50px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 footer{
     background-color: #00669f;
     color: #f3f3f3;
