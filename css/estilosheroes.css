@@ -24,6 +24,10 @@ gap: 10px;
     text-decoration: none;
 color: #f3f3f3;
 }
+a :hover{
+    cursor: pointer;
+}
+
 main{
     background-color: #00669f;
     display: flex;
